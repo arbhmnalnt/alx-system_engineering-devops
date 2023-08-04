@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name "*.html" -newer ! "$PWD/.." | xargs cp "$PWD/.." | ls -lh | grep -n file_0.html | cut -d ' ' -f1-8
+find . -name "*.html" -newer ! "$PWD/.." | xargs cp "$PWD/.." | ls -lh | grep -n file_0.html | cut -d ' ' -f1-7
